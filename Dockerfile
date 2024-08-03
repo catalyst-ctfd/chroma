@@ -12,4 +12,4 @@ USER 1001
 
 RUN pip install chromadb
 
-CMD chroma run --port 8080
+CMD chroma run --port 8080 --host 0.0.0.0
